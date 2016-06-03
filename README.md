@@ -11,7 +11,7 @@ Run `app.js`:
 **jyeah** should only have one method: `build`. This method takes a JSON object and returns HTML:
 
 ```javascript
-jYeah.build({
+jyeah.build({
  "header": {
    "links": {
      "Home": "http://home",
