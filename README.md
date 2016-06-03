@@ -1,6 +1,6 @@
 ## [WIP] jyeah
 
-This is the WIP of a small library for writing HTML as a JSON string.
+This is the WIP of a small library for writing HTML as a JSON object.
 
 ## Development
 Run `app.js`:
@@ -8,7 +8,7 @@ Run `app.js`:
     node app.js
 
 ## API
-**jyeah** should only have one method: `build`. This method takes a JSON string and returns HTML:
+**jyeah** should only have one method: `build`. This method takes a JSON object and returns HTML:
 
 ```javascript
 jYeah.build({
@@ -24,7 +24,7 @@ jYeah.build({
  });
 ```
 
-The `build` method takes only one argument that should be a JSON string. This JSON should have only one or more of the following properties:
+The `build` method takes only one argument that should be a JSON object. This JSON should have only one or more of the following properties:
 
     const EXPECTED_PROPS = ['links', 'text', 'title', 'subtitle'];
 
