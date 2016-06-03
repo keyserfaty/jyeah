@@ -1,13 +1,13 @@
 /*
  Example:
 
- jYeah.build({
+ jyeah.build({
  "header": {
    "links": {
      "Home": "http://home",
      "About":  "http://about"
    },
-   "text": "Cosas sas sas sas",
+   "text": "Stuffff",
    "title": "title",
    "subtitle": "subtitle"
    }
